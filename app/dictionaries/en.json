@@ -1,0 +1,126 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products",
+    "faqs": "FAQs"
+  },
+  "hero": {
+    "title": "Global Partner & Resources Limited",
+    "subtitle": "Your Trusted Gold Trading Partner",
+    "description": "Professional Gold Trading Services",
+    "viewProducts": "View Products",
+    "learnMore": "Learn More"
+  },
+  "products": {
+    "title": "Latest Gold Bar Offerings",
+    "goldBar": "1KG Gold Bar",
+    "purity": "99.99% Pure Gold",
+    "USD": "USD",
+    "HKD": "HKD",
+    "CNY": "CNY",
+    "buy": "Buy",
+    "sell": "Sell",
+    "priceReference": "* Price is for reference only"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "competitivePrices": {
+      "title": "Competitive Prices",
+      "description": "We offer the best rates in the market, ensuring you get the most value for your investment."
+    },
+    "secureTransactions": {
+      "title": "Secure Transactions",
+      "description": "Your safety is our priority. We use state-of-the-art security measures for all transactions."
+    },
+    "exceptionalService": {
+      "title": "Exceptional Service",
+      "description": "Our team of experts is always ready to assist you with any queries or concerns."
+    },
+    "internationalReach": {
+      "title": "International Reach",
+      "description": "With our global network, we facilitate seamless transactions across borders and currencies."
+    }
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "roles": {
+      "investor": "Investor",
+      "financialAdvisor": "Financial Advisor",
+      "internationalTrader": "International Trader"
+    },
+    "reviews": {
+      "johnDoe": "Global Partner & Resources Limited has been my go-to for gold trading. Their prices are unbeatable and the service is top-notch.",
+      "janeSmith": "I've been recommending Global Partner & Resources Limited to my clients for years. Their security measures are second to none.",
+      "sarahChen": "The multi-currency support and global reach of GPR have made my international gold trading seamless. Their expertise is unmatched."
+    }
+  },
+  "learn": {
+    "title": "Learn About Gold Trading",
+    "basics": {
+      "title": "Gold Trading Basics",
+      "description": "Learn the fundamentals of gold trading and investment."
+    },
+    "market": {
+      "title": "Market Analysis",
+      "description": "Stay updated with our expert analysis of the gold market."
+    },
+    "strategies": {
+      "title": "Investment Strategies",
+      "description": "Discover effective strategies for gold investment."
+    },
+    "readMore": "Read More"
+  },
+  "about": {
+    "title": "About Global Partner & Resources Limited",
+    "subtitle": "Your trusted partner in gold bar trading since 2005. Learn about our history, values, and commitment to excellence.",
+    "history": {
+      "title": "Our History",
+      "content": "Founded in 2005, Global Partner & Resources Limited has grown from a small local trader to a leading international gold trading company. Our journey is marked by a commitment to integrity, innovation, and customer satisfaction."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To provide our clients with unparalleled access to the global gold market, offering competitive prices, secure transactions, and exceptional service. We aim to be the go-to partner for all gold trading needs."
+    },
+    "values": {
+      "title": "Our Values",
+      "integrity": {
+        "title": "Integrity",
+        "content": "We uphold the highest standards of honesty and ethical conduct in all our dealings."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "content": "We strive for excellence in every aspect of our business, from customer service to product quality."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "content": "We continuously seek innovative solutions to meet the evolving needs of our clients and the market."
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 Global Partner & Resources Limited. All rights reserved.",
+      "terms": "Terms of Service",
+      "privacy": "Privacy"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for any inquiries or support.",
+    "info": {
+      "title": "Contact Information",
+      "description": "Reach out to us through any of these channels",
+      "phone": "+852 9809 9959",
+      "email": "kent@globalpresources.com",
+      "address": "Unit 906, 18 Sung On Street, Hung Hom, Kowloon, Hong Kong"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "description": "We'll get back to you as soon as possible",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  }
+}

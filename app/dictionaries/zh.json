@@ -1,0 +1,126 @@
+{
+  "navigation": {
+    "home": "首頁",
+    "about": "關於我們",
+    "products": "產品",
+    "faqs": "常見問題",
+    "contact": "聯絡我們"
+  },
+  "hero": {
+    "title": "環球夥伴資源有限公司",
+    "subtitle": "您可信賴的黃金交易夥伴",
+    "description": "安全交易、具競爭力的價格和卓越的服務",
+    "viewProducts": "查看產品",
+    "learnMore": "了解更多"
+  },
+  "products": {
+    "title": "最新黃金報價",
+    "goldBar": "1公斤金條",
+    "purity": "99.99% 純金",
+    "USD": "美元",
+    "HKD": "港元",
+    "CNY": "人民幣",
+    "buy": "購買",
+    "sell": "賣出",
+    "priceReference": "* 價格僅供參考"
+  },
+  "whyChooseUs": {
+    "title": "為什麼選擇我們",
+    "competitivePrices": {
+      "title": "具競爭力的價格",
+      "description": "我們提供市場上最優惠的價格，確保您的投資獲得最大價值。"
+    },
+    "secureTransactions": {
+      "title": "安全交易",
+      "description": "您的安全是我們的首要任務。我們採用最先進的安全措施進行所有交易。"
+    },
+    "exceptionalService": {
+      "title": "卓越服務",
+      "description": "我們的專家團隊隨時準備協助您解答任何疑問。"
+    },
+    "internationalReach": {
+      "title": "國際網絡",
+      "description": "憑藉我們的全球網絡，我們促進跨境和跨貨幣的無縫交易。"
+    }
+  },
+  "testimonials": {
+    "title": "客戶評價",
+    "roles": {
+      "investor": "投資者",
+      "financialAdvisor": "財務顧問",
+      "internationalTrader": "國際交易員"
+    },
+    "reviews": {
+      "johnDoe": "環球夥伴資源有限公司一直是我黃金交易的首選。他們的價格無可比擬，服務一流。",
+      "janeSmith": "多年來，我一直向我的客戶推薦環球夥伴資源有限公司。他們的安全措施是首屈一指的。",
+      "sarahChen": "GPR的多幣種支持和全球覆蓋使我的國際黃金交易變得無縫順暢。他們的專業知識無與倫比。"
+    }
+  },
+  "learn": {
+    "title": "了解黃金交易",
+    "basics": {
+      "title": "黃金交易基礎",
+      "description": "學習黃金交易和投資的基本知識。"
+    },
+    "market": {
+      "title": "市場分析",
+      "description": "及時了解我們的黃金市場專業分析。"
+    },
+    "strategies": {
+      "title": "投資策略",
+      "description": "發掘有效的黃金投資策略。"
+    },
+    "readMore": "閱讀更多"
+  },
+  "about": {
+    "title": "關於環球夥伴資源有限公司",
+    "subtitle": "自2005年以來，您值得信賴的黃金交易夥伴。了解我們的歷史、價值觀和追求卓越的承諾。",
+    "history": {
+      "title": "我們的歷史",
+      "content": "環球夥伴資源有限公司成立於2005年，從一家小型本地貿易商發展成為領先的國際黃金貿易公司。我們的發展歷程體現了對誠信、創新和客戶滿意度的承諾。"
+    },
+    "mission": {
+      "title": "我們的使命",
+      "content": "為客戶提供無與倫比的全球黃金市場准入機會，提供具競爭力的價格、安全的交易和卓越的服務。我們致力於成為所有黃金交易需求的首選合作夥伴。"
+    },
+    "values": {
+      "title": "我們的價值觀",
+      "integrity": {
+        "title": "誠信",
+        "content": "我們在所有交易中都堅持最高標準的誠信和道德操守。"
+      },
+      "excellence": {
+        "title": "卓越",
+        "content": "我們在業務的各個方面都追求卓越，從客戶服務到產品質量。"
+      },
+      "innovation": {
+        "title": "創新",
+        "content": "我們不斷尋求創新解決方案，以滿足客戶和市場不斷發展的需求。"
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 環球夥伴資源有限公司。版權所有。",
+      "terms": "服務條款",
+      "privacy": "隱私政策"
+    }
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "subtitle": "如有任何查詢或需要支援，請與我們的團隊聯絡。",
+    "info": {
+      "title": "聯絡資料",
+      "description": "通過以下方式與我們聯繫",
+      "phone": "+852 9809 9959",
+      "email": "kent@globalpresources.com",
+      "address": "香港九龍紅磡祟安街18號半島廣場906室"
+    },
+    "form": {
+      "title": "發送訊息",
+      "description": "我們會盡快回覆您",
+      "name": "您的姓名",
+      "email": "您的電郵",
+      "message": "您的訊息",
+      "submit": "發送訊息"
+    }
+  }
+}
