@@ -88,9 +88,10 @@ export default async function HomePage({
               <Image
                 src="/images/gold-bars.jpg"
                 alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
-                width={2000}
-                height={1200}
+                width={800}    // Changed to match actual width
+                height={323}   // Changed to match actual height
                 className="rounded-lg shadow-lg w-full h-auto object-cover max-w-[800px]"
+                priority
               />
             </div>
           </div>
