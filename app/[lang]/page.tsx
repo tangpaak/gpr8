@@ -126,7 +126,7 @@ export default async function HomePage({
                           width={300}
                           height={150}
                           className="rounded-lg shadow-lg w-full h-auto"
-                          layout="responsive"
+                          priority
                         />
                       </div>
                     </CardHeader>
@@ -146,13 +146,13 @@ export default async function HomePage({
                         </CardContent>
                       </div>
                       <div className="w-full md:w-auto">
-                        <Image
+                      <Image
                           src="/images/gold-bars2.jpg"
                           alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
                           width={300}
                           height={150}
                           className="rounded-lg shadow-lg w-full h-auto"
-                          layout="responsive"
+                          priority
                         />
                       </div>
                     </CardHeader>
@@ -172,13 +172,13 @@ export default async function HomePage({
                         </CardContent>
                       </div>
                       <div className="w-full md:w-auto relative">
-                        <Image
+                      <Image
                           src="/images/gold-bars2.jpg"
                           alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
                           width={300}
                           height={150}
                           className="rounded-lg shadow-lg w-full h-auto"
-                          layout="responsive"
+                          priority
                         />
                       </div>
                     </CardHeader>
