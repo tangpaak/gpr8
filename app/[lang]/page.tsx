@@ -193,15 +193,19 @@ export default async function HomePage({
                 </p>
               </div>
               <div className="mt-8 flex justify-center space-x-4">
-                <Button className="bg-indigo-600 text-white hover:bg-indigo-700">
-                  {dict.products.buy}
-                </Button>
-                <Button
-                  variant="outline"
-                  className="bg-red-500 text-white hover:bg-red-600"
-                >
-                  {dict.products.sell}
-                </Button>
+                <Link href={`/${lang}/contact?type=buy`}>
+                  <Button className="bg-indigo-600 text-white hover:bg-indigo-700">
+                    Buy
+                  </Button>
+                </Link>
+                <Link href={`/${lang}/contact?type=sell`}>
+                  <Button
+                    variant="outline"
+                    className="bg-red-500 text-white hover:bg-red-600"
+                  >
+                    Sell
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
