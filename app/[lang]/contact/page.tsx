@@ -1,4 +1,4 @@
-"use client";
+// This will be a server component
 
 import Image from "next/image";
 import Link from "next/link";
@@ -14,8 +14,7 @@ import {
 } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { getDictionary } from "../../lib/dictionary";
-import { useState } from 'react';
-import ContactForm from '@/components/ContactForm';
+import ContactForm from './ContactForm';
 
 export default async function ContactPage({
   params: { lang },
@@ -23,7 +22,6 @@ export default async function ContactPage({
   params: { lang: string };
 }) {
   const dict = await getDictionary(lang);
-
 
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100">
@@ -120,7 +118,7 @@ export default async function ContactPage({
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                <ContactForm dict={dict} />
+                  <ContactForm dict={dict} />
                 </CardContent>
               </Card>
             </div>

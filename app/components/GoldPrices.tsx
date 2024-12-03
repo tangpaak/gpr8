@@ -1,3 +1,6 @@
+// app/components/GoldPrices.tsx
+"use client";
+
 import { useState, useEffect } from 'react';
 
 interface GoldPrices {

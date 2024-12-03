@@ -27,9 +27,8 @@ export default function ContactForm({ dict }: ContactFormProps) {
     message: "",
   });
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
+  // Move the async functionality into a separate function
+  const submitForm = async (formData: any) => {
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -40,18 +39,30 @@ export default function ContactForm({ dict }: ContactFormProps) {
       });
 
       const data = await response.json();
-
-      if (response.ok) {
-        alert(dict.contact.form.success || "Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        console.error("Server error:", data);
-        alert(`${dict.contact.form.error} (${data.error || data.message})`);
-      }
+      return { ok: response.ok, data };
     } catch (error) {
-      console.error("Client error:", error);
-      alert(dict.contact.form.error);
+      throw error;
     }
+  };
+
+  // Make the handler non-async
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    submitForm(formData)
+      .then(({ ok, data }) => {
+        if (ok) {
+          alert(dict.contact.form.success || "Message sent successfully!");
+          setFormData({ name: "", email: "", message: "" });
+        } else {
+          console.error("Server error:", data);
+          alert(`${dict.contact.form.error} (${data.error || data.message})`);
+        }
+      })
+      .catch((error) => {
+        console.error("Client error:", error);
+        alert(dict.contact.form.error);
+      });
   };
 
   const handleChange = (
