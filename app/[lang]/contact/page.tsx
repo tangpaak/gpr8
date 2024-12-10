@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { getDictionary } from "../../lib/dictionary";
-import ContactForm from './ContactForm';
+import ContactForm from "./ContactForm";
 
 export default async function ContactPage({
   params: { lang },
@@ -29,31 +29,31 @@ export default async function ContactPage({
         <Link className="flex items-center justify-center" href="/"></Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}`}
           >
             {dict.navigation.home}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}/about`} // Changed from "/about" to "/${lang}/about"
           >
             {dict.navigation.about}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href="#products"
           >
             {dict.navigation.products}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href="/faqs"
           >
             {dict.navigation.faqs}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}/contact`} // Use the lang parameter from your page props
           >
             {dict.navigation.contact}
@@ -90,30 +90,32 @@ export default async function ContactPage({
             <div className="grid gap-10 sm:grid-cols-2">
               <Card>
                 <CardHeader>
-                  <CardTitle>{dict.contact.info.title}</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-black">
+                    {dict.contact.info.title}
+                  </CardTitle>
+                  <CardDescription className="text-gray-600">
                     {dict.contact.info.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <Phone className="text-indigo-600" />
-                    <span>{dict.contact.info.phone}</span>
+                    <span className="text-black">{dict.contact.info.phone}</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <Mail className="text-indigo-600" />
-                    <span>{dict.contact.info.email}</span>
+                    <span className="text-black"> {dict.contact.info.email}</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <MapPin className="text-indigo-600" />
-                    <span>{dict.contact.info.address}</span>
+                    <span className="text-black">{dict.contact.info.address}</span>
                   </div>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>{dict.contact.form.title}</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-black">{dict.contact.form.title}</CardTitle>
+                  <CardDescription className="text-gray-600">
                     {dict.contact.form.description}
                   </CardDescription>
                 </CardHeader>

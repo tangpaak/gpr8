@@ -29,31 +29,31 @@ export default async function HomePage({
         <Link className="flex items-center justify-center" href="#"></Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}`}
           >
             {dict.navigation.home}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}/about`} // Changed from "/about" to "/${lang}/about"
           >
             {dict.navigation.about}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href="#products"
           >
             {dict.navigation.products}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href="#faqs"
           >
             {dict.navigation.faqs}
           </Link>
           <Link
-            className="text-sm font-medium hover:text-indigo-600 transition-colors"
+            className="text-sm font-medium text-black hover:text-indigo-600 transition-colors"
             href={`/${lang}/contact`} // Use the lang parameter from your page props
           >
             {dict.navigation.contact}
@@ -104,16 +104,16 @@ export default async function HomePage({
             <div>
               <Tabs defaultValue="usd" className="w-full max-w-3xl mx-auto">
                 <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="usd">{dict.products.USD}</TabsTrigger>
-                  <TabsTrigger value="hkd">{dict.products.HKD}</TabsTrigger>
-                  <TabsTrigger value="cny">{dict.products.CNY}</TabsTrigger>
+                  <TabsTrigger value="usd" className="text-black">{dict.products.USD}</TabsTrigger>
+                  <TabsTrigger value="hkd" className="text-black">{dict.products.HKD}</TabsTrigger>
+                  <TabsTrigger value="cny" className="text-black">{dict.products.CNY}</TabsTrigger>
                 </TabsList>
                 <TabsContent value="usd">
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle>{dict.products.goldBar}</CardTitle>
-                        <CardDescription>
+                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
                         <CardContent className="p-0 mt-4">
@@ -138,8 +138,8 @@ export default async function HomePage({
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle>{dict.products.goldBar}</CardTitle>
-                        <CardDescription>
+                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
                         <CardContent className="p-0 mt-4">
@@ -164,8 +164,8 @@ export default async function HomePage({
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle>{dict.products.goldBar}</CardTitle>
-                        <CardDescription>
+                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
                         <CardContent className="p-0 mt-4">
@@ -263,7 +263,7 @@ export default async function HomePage({
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle>John Doe</CardTitle>
+                  <CardTitle className="text-black">John Doe</CardTitle>
                   <CardDescription>
                     {dict.testimonials.roles.investor}
                   </CardDescription>
@@ -285,7 +285,7 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Jane Smith</CardTitle>
+                  <CardTitle className="text-black">Jane Smith</CardTitle>
                   <CardDescription>
                     {dict.testimonials.roles.financialAdvisor}
                   </CardDescription>
@@ -307,7 +307,7 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Sarah Chen</CardTitle>
+                  <CardTitle className="text-black">Sarah Chen</CardTitle>
                   <CardDescription>
                     {dict.testimonials.roles.internationalTrader}
                   </CardDescription>
@@ -338,7 +338,7 @@ export default async function HomePage({
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle>{dict.learn.basics.title}</CardTitle>
+                  <CardTitle className="text-black">{dict.learn.basics.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
@@ -356,7 +356,7 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>{dict.learn.market.title}</CardTitle>
+                  <CardTitle className="text-black">{dict.learn.market.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
@@ -374,7 +374,7 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>{dict.learn.strategies.title}</CardTitle>
+                  <CardTitle className="text-black">{dict.learn.strategies.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
