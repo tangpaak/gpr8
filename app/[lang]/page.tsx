@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -73,7 +71,7 @@ export default async function HomePage({
                 </p>
               </div>
               <div className="space-x-4 mt-6">
-                <Button className="bg-indigo-600 hover:bg-indigo-700">
+                <Button className="bg-indigo-600 text-white hover:bg-indigo-700">
                   {dict.hero.viewProducts}
                 </Button>
                 <Button
@@ -88,8 +86,8 @@ export default async function HomePage({
               <Image
                 src="/images/gold-bars.jpg"
                 alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
-                width={800}    // Changed to match actual width
-                height={323}   // Changed to match actual height
+                width={800} // Changed to match actual width
+                height={323} // Changed to match actual height
                 className="rounded-lg shadow-lg w-full h-auto object-cover max-w-[800px]"
                 priority
               />
@@ -104,19 +102,27 @@ export default async function HomePage({
             <div>
               <Tabs defaultValue="usd" className="w-full max-w-3xl mx-auto">
                 <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="usd" className="text-black">{dict.products.USD}</TabsTrigger>
-                  <TabsTrigger value="hkd" className="text-black">{dict.products.HKD}</TabsTrigger>
-                  <TabsTrigger value="cny" className="text-black">{dict.products.CNY}</TabsTrigger>
+                  <TabsTrigger value="usd" className="text-black">
+                    {dict.products.USD}
+                  </TabsTrigger>
+                  <TabsTrigger value="hkd" className="text-black">
+                    {dict.products.HKD}
+                  </TabsTrigger>
+                  <TabsTrigger value="cny" className="text-black">
+                    {dict.products.CNY}
+                  </TabsTrigger>
                 </TabsList>
                 <TabsContent value="usd">
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardTitle className="text-black">
+                          {dict.products.goldBar}
+                        </CardTitle>
                         <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
-                        <CardContent className="p-0 mt-4">
+                        <CardContent className="p-0 mt-4 text-black">
                           <GoldPrices currency="USD" />
                         </CardContent>
                       </div>
@@ -138,16 +144,18 @@ export default async function HomePage({
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardTitle className="text-black">
+                          {dict.products.goldBar}
+                        </CardTitle>
                         <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
-                        <CardContent className="p-0 mt-4">
+                        <CardContent className="p-0 mt-4 text-black">
                           <GoldPrices currency="HKD" />
                         </CardContent>
                       </div>
                       <div className="w-full md:w-auto">
-                      <Image
+                        <Image
                           src="/images/gold-bars2.jpg"
                           alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
                           width={300}
@@ -164,16 +172,18 @@ export default async function HomePage({
                   <Card>
                     <CardHeader className="flex flex-col md:flex-row justify-between items-start">
                       <div className="mb-4 md:mb-0 md:mr-4">
-                        <CardTitle className="text-black">{dict.products.goldBar}</CardTitle>
+                        <CardTitle className="text-black">
+                          {dict.products.goldBar}
+                        </CardTitle>
                         <CardDescription className="text-gray-600">
                           {dict.products.purity}
                         </CardDescription>
-                        <CardContent className="p-0 mt-4">
+                        <CardContent className="p-0 mt-4 text-black">
                           <GoldPrices currency="CNY" />
                         </CardContent>
                       </div>
                       <div className="w-full md:w-auto relative">
-                      <Image
+                        <Image
                           src="/images/gold-bars2.jpg"
                           alt="Gold bars stacked neatly, representing the high-quality products offered by Global Partner & Resources Limited"
                           width={300}
@@ -338,7 +348,9 @@ export default async function HomePage({
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">{dict.learn.basics.title}</CardTitle>
+                  <CardTitle className="text-black">
+                    {dict.learn.basics.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
@@ -348,7 +360,7 @@ export default async function HomePage({
                 <CardFooter>
                   <Button
                     variant="outline"
-                    className="text-indigo-600 border-indigo-600 hover:bg-indigo-50"
+                    className="bg-white text-indigo-600 border-indigo-600 hover:bg-indigo-50"
                   >
                     {dict.learn.readMore}
                   </Button>
@@ -356,7 +368,9 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">{dict.learn.market.title}</CardTitle>
+                  <CardTitle className="text-black">
+                    {dict.learn.market.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
@@ -366,7 +380,7 @@ export default async function HomePage({
                 <CardFooter>
                   <Button
                     variant="outline"
-                    className="text-indigo-600 border-indigo-600 hover:bg-indigo-50"
+                    className="bg-white text-indigo-600 border-indigo-600 hover:bg-indigo-50"
                   >
                     {dict.learn.readMore}
                   </Button>
@@ -374,7 +388,9 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">{dict.learn.strategies.title}</CardTitle>
+                  <CardTitle className="text-black">
+                    {dict.learn.strategies.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
@@ -384,7 +400,7 @@ export default async function HomePage({
                 <CardFooter>
                   <Button
                     variant="outline"
-                    className="text-indigo-600 border-indigo-600 hover:bg-indigo-50"
+                    className="bg-white text-indigo-600 border-indigo-600 hover:bg-indigo-50"
                   >
                     {dict.learn.readMore}
                   </Button>

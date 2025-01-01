@@ -31,9 +31,9 @@ export function GoldPrices({ currency }: GoldPricesProps) {
         const data = await response.json();
         const usdPrice = data.price;
         setPrices({
-          USD: usdPrice * 32.151,
-          HKD: usdPrice * 32.151 * 7.8,
-          CNY: usdPrice * 32.151 * 7.12
+          USD: usdPrice * 32.151 * 1.02,
+          HKD: usdPrice * 32.151 * 7.8 * 1.02,
+          CNY: usdPrice * 32.151 * 7.12 * 1.02
         });
       } catch (error) {
         console.error('Error fetching gold price:', error);
