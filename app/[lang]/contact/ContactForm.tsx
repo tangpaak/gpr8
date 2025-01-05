@@ -82,6 +82,7 @@ export default function ContactForm({ dict }: ContactFormProps) {
         value={formData.name}
         onChange={handleChange}
         placeholder={dict.contact.form.name}
+        className="text-black bg-white"
         required
       />
       <Input
@@ -90,6 +91,7 @@ export default function ContactForm({ dict }: ContactFormProps) {
         value={formData.email}
         onChange={handleChange}
         placeholder={dict.contact.form.email}
+        className="text-black bg-white"
         required
       />
       <Textarea
@@ -97,6 +99,7 @@ export default function ContactForm({ dict }: ContactFormProps) {
         value={formData.message}
         onChange={handleChange}
         placeholder={dict.contact.form.message}
+        className="text-black bg-white"
         required
       />
       <Button

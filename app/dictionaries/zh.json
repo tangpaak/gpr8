@@ -27,20 +27,20 @@
   "whyChooseUs": {
     "title": "為什麼選擇我們",
     "competitivePrices": {
-      "title": "具競爭力的價格",
-      "description": "我們提供市場上最優惠的價格，確保您的投資獲得最大價值。"
+      "title": "產品與服務的專業性",
+      "description": "來自Heraeus和Metalor等知名鑄造商的金條。為內地客戶提供定制方案和優惠價格。"
     },
     "secureTransactions": {
-      "title": "安全交易",
-      "description": "您的安全是我們的首要任務。我們採用最先進的安全措施進行所有交易。"
+      "title": "安全性與便捷性",
+      "description": "專業的保管服務和快速交易。香港的地理位置為客戶提供靈活的實物交割選擇。"
     },
     "exceptionalService": {
-      "title": "卓越服務",
-      "description": "我們的專家團隊隨時準備協助您解答任何疑問。"
+      "title": "專注內地市場",
+      "description": "專注服務內地保險客戶，提供專業投資建議，確保合規運營。"
     },
     "internationalReach": {
-      "title": "國際網絡",
-      "description": "憑藉我們的全球網絡，我們促進跨境和跨貨幣的無縫交易。"
+      "title": "經驗與信譽",
+      "description": "擁有值得信賴的黃金交易專業知識，結合香港金融中心地位和優質服務記錄。"
     }
   },
   "testimonials": {
@@ -51,9 +51,9 @@
       "internationalTrader": "國際交易員"
     },
     "reviews": {
-      "johnDoe": "環球夥伴資源有限公司一直是我黃金交易的首選。他們的價格無可比擬，服務一流。",
-      "janeSmith": "多年來，我一直向我的客戶推薦環球夥伴資源有限公司。他們的安全措施是首屈一指的。",
-      "sarahChen": "GPR的多幣種支持和全球覆蓋使我的國際黃金交易變得無縫順暢。他們的專業知識無與倫比。"
+      "jamesAnderson": "環球夥伴資源有限公司一直是我黃金交易的首選。他們的價格無可比擬，服務一流。",
+      "meganMartin": "多年來，我一直向我的客戶推薦環球夥伴資源有限公司。他們的安全措施是首屈一指的。",
+      "jacobYoung": "GPR的多幣種支持和全球覆蓋使我的國際黃金交易變得無縫順暢。他們的專業知識無與倫比。"
     }
   },
   "learn": {
@@ -106,12 +106,17 @@
   },
   "contact": {
     "title": "聯絡我們",
-    "subtitle": "如有任何查詢或需要支援，請與我們的團隊聯絡。",
+    "subtitle": "擁有專屬的財富保障",
+    "benefits": {
+      "consultation": "免費諮詢：瞭解最新市場資訊及投資方案。",
+      "exclusive": "專屬優惠：首次購買享受特惠價格。",
+      "convenient": "便捷流程：現貨下單、快速交割，讓您省時省力。"
+    },
     "info": {
       "title": "聯絡資料",
       "description": "通過以下方式與我們聯繫",
       "phone": "+852 5617 8624",
-      "email": "kent@globalpresources.com",
+      "wechatwhatsapp": "微信/WhatsApp: +852 5617 8624",
       "address": "香港九龍紅磡祟安街18號半島廣場906室"
     },
     "form": {

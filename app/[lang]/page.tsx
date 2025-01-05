@@ -102,13 +102,22 @@ export default async function HomePage({
             <div>
               <Tabs defaultValue="usd" className="w-full max-w-3xl mx-auto">
                 <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="usd" className="text-black">
+                  <TabsTrigger
+                    value="usd"
+                    className="text-black data-[state=active]:bg-white data-[state=active]:text-black hover:bg-indigo-50"
+                  >
                     {dict.products.USD}
                   </TabsTrigger>
-                  <TabsTrigger value="hkd" className="text-black">
+                  <TabsTrigger
+                    value="hkd"
+                    className="text-black data-[state=active]:bg-white data-[state=active]:text-black hover:bg-indigo-50"
+                  >
                     {dict.products.HKD}
                   </TabsTrigger>
-                  <TabsTrigger value="cny" className="text-black">
+                  <TabsTrigger
+                    value="cny"
+                    className="text-black data-[state=active]:bg-white data-[state=active]:text-black hover:bg-indigo-50"
+                  >
                     {dict.products.CNY}
                   </TabsTrigger>
                 </TabsList>
@@ -228,37 +237,37 @@ export default async function HomePage({
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
               <div className="flex flex-col items-center space-y-2 border-indigo-200 p-4 rounded-lg">
                 <DollarSign className="h-8 w-8 text-indigo-600" />
-                <h3 className="text-xl font-bold text-indigo-900">
+                <h3 className="text-xl font-bold text-indigo-900 text-center min-h-[3rem] flex items-center">
                   {dict.whyChooseUs.competitivePrices.title}
                 </h3>
-                <p className="text-sm text-indigo-600 text-center">
+                <p className="text-sm text-indigo-600 text-center whitespace-pre-line">
                   {dict.whyChooseUs.competitivePrices.description}
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-indigo-200 p-4 rounded-lg">
                 <Lock className="h-8 w-8 text-indigo-600" />
-                <h3 className="text-xl font-bold text-indigo-900">
+                <h3 className="text-xl font-bold text-indigo-900 text-center min-h-[3rem] flex items-center">
                   {dict.whyChooseUs.secureTransactions.title}
                 </h3>
-                <p className="text-sm text-indigo-600 text-center">
+                <p className="text-sm text-indigo-600 text-center whitespace-pre-line">
                   {dict.whyChooseUs.secureTransactions.description}
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-indigo-200 p-4 rounded-lg">
                 <User className="h-8 w-8 text-indigo-600" />
-                <h3 className="text-xl font-bold text-indigo-900">
+                <h3 className="text-xl font-bold text-indigo-900 text-center min-h-[3rem] flex items-center">
                   {dict.whyChooseUs.exceptionalService.title}
                 </h3>
-                <p className="text-sm text-indigo-600 text-center">
+                <p className="text-sm text-indigo-600 text-center whitespace-pre-line">
                   {dict.whyChooseUs.exceptionalService.description}
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-indigo-200 p-4 rounded-lg">
                 <Globe className="h-8 w-8 text-indigo-600" />
-                <h3 className="text-xl font-bold text-indigo-900">
+                <h3 className="text-xl font-bold text-indigo-900 text-center min-h-[3rem] flex items-center">
                   {dict.whyChooseUs.internationalReach.title}
                 </h3>
-                <p className="text-sm text-indigo-600 text-center">
+                <p className="text-sm text-indigo-600 text-center whitespace-pre-line">
                   {dict.whyChooseUs.internationalReach.description}
                 </p>
               </div>
@@ -273,14 +282,14 @@ export default async function HomePage({
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">John Doe</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-black">James Anderson</CardTitle>
+                  <CardDescription className="text-black">
                     {dict.testimonials.roles.investor}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
-                    "{dict.testimonials.reviews.johnDoe}"
+                    "{dict.testimonials.reviews.jamesAnderson}"
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -295,14 +304,14 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">Jane Smith</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-black">Megan Martin</CardTitle>
+                  <CardDescription className="text-black">
                     {dict.testimonials.roles.financialAdvisor}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
-                    "{dict.testimonials.reviews.janeSmith}"
+                    "{dict.testimonials.reviews.meganMartin}"
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -317,14 +326,14 @@ export default async function HomePage({
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">Sarah Chen</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-black">Jacob Young</CardTitle>
+                  <CardDescription className="text-black">
                     {dict.testimonials.roles.internationalTrader}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-indigo-600">
-                    "{dict.testimonials.reviews.sarahChen}"
+                    "{dict.testimonials.reviews.jacobYoung}"
                   </p>
                 </CardContent>
                 <CardFooter>

@@ -27,20 +27,20 @@
   "whyChooseUs": {
     "title": "Why Choose Us",
     "competitivePrices": {
-      "title": "Competitive Prices",
-      "description": "We offer the best rates in the market, ensuring you get the most value for your investment."
+      "title": "Professional Products and Services",
+      "description": "Gold bars from renowned refineries like Heraeus and Metalor. We offer customized solutions and preferential pricing for mainland clients."
     },
     "secureTransactions": {
-      "title": "Secure Transactions",
-      "description": "Your safety is our priority. We use state-of-the-art security measures for all transactions."
+      "title": "Security and Convenience",
+      "description": "Professional vault services and quick transactions. Our Hong Kong location ensures flexible physical delivery options for clients."
     },
     "exceptionalService": {
-      "title": "Exceptional Service",
-      "description": "Our team of experts is always ready to assist you with any queries or concerns."
+      "title": "Focus on Mainland Market",
+      "description": "Dedicated to mainland insurance clients. We provide expert investment advice while ensuring regulatory compliance."
     },
     "internationalReach": {
-      "title": "International Reach",
-      "description": "With our global network, we facilitate seamless transactions across borders and currencies."
+      "title": "Experience and Reputation",
+      "description": "Trusted expertise in gold trading, backed by Hong Kong's financial center status and excellent service track record."
     }
   },
   "testimonials": {
@@ -51,9 +51,9 @@
       "internationalTrader": "International Trader"
     },
     "reviews": {
-      "johnDoe": "Global Partner & Resources Limited has been my go-to for gold trading. Their prices are unbeatable and the service is top-notch.",
-      "janeSmith": "I've been recommending Global Partner & Resources Limited to my clients for years. Their security measures are second to none.",
-      "sarahChen": "The multi-currency support and global reach of GPR have made my international gold trading seamless. Their expertise is unmatched."
+      "jamesAnderson": "Global Partner & Resources Limited has been my go-to for gold trading. Their prices are unbeatable and the service is top-notch.",
+      "meganMartin": "I've been recommending Global Partner & Resources Limited to my clients for years. Their security measures are second to none.",
+      "jacobYoung": "The multi-currency support and global reach of GPR have made my international gold trading seamless. Their expertise is unmatched."
     }
   },
   "learn": {
@@ -106,12 +106,17 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Get in touch with our team for any inquiries or support.",
+    "subtitle": "Secure Your Exclusive Wealth Protection",
+    "benefits": {
+      "consultation": "Free Consultation: Get latest market insights and investment solutions.",
+      "exclusive": "Exclusive Offer: Special pricing for first-time purchases.",
+      "convenient": "Convenient Process: Spot orders and quick delivery to save your time."
+    },
     "info": {
       "title": "Contact Information",
       "description": "Reach out to us through any of these channels",
       "phone": "+852 5617 8624 ",
-      "email": "kent@globalpresources.com",
+      "wechatwhatsapp": "WeChat/WhatsApp: +852 5617 8624",
       "address": "Unit 906, 18 Sung On Street, Hung Hom, Kowloon, Hong Kong"
     },
     "form": {

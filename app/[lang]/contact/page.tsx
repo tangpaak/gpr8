@@ -12,7 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import { getDictionary } from "../../lib/dictionary";
 import ContactForm from "./ContactForm";
 
@@ -64,8 +64,42 @@ export default async function ContactPage({
         <section className="w-full py-12 md:py-24 lg:py-32 bg-indigo-900 text-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-              <div className="w-full md:w-1/3">
-                <Image
+              <div className="w-full md:w-1/2">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none mb-4">
+                  {dict.contact.title}
+                </h1>
+                <p className="text-2xl font-semibold text-indigo-200 mb-8">
+                  {dict.contact.subtitle}
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-4">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-700 text-white font-bold">
+                      01
+                    </span>
+                    <p className="text-lg text-indigo-200">
+                      {dict.contact.benefits.consultation}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-700 text-white font-bold">
+                      02
+                    </span>
+                    <p className="text-lg text-indigo-200">
+                      {dict.contact.benefits.exclusive}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-700 text-white font-bold">
+                      03
+                    </span>
+                    <p className="text-lg text-indigo-200">
+                      {dict.contact.benefits.convenient}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2">
+              <Image
                   src="/images/CustomerService.png"
                   alt="Customer Service Representative"
                   width={400}
@@ -73,14 +107,6 @@ export default async function ContactPage({
                   className="rounded-lg object-cover w-full"
                   priority
                 />
-              </div>
-              <div className="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none mb-4">
-                  {dict.contact.title}
-                </h1>
-                <p className="max-w-[700px] text-indigo-200 md:text-xl">
-                  {dict.contact.subtitle}
-                </p>
               </div>
             </div>
           </div>
@@ -100,21 +126,30 @@ export default async function ContactPage({
                 <CardContent className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <Phone className="text-indigo-600" />
-                    <span className="text-black">{dict.contact.info.phone}</span>
+                    <span className="text-black">
+                      {dict.contact.info.phone}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <Mail className="text-indigo-600" />
-                    <span className="text-black"> {dict.contact.info.email}</span>
+                    <MessageCircle className="text-indigo-600" />
+                    <span className="text-black">
+                      {" "}
+                      {dict.contact.info.wechatwhatsapp}
+                    </span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <MapPin className="text-indigo-600" />
-                    <span className="text-black">{dict.contact.info.address}</span>
+                    <span className="text-black">
+                      {dict.contact.info.address}
+                    </span>
                   </div>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-black">{dict.contact.form.title}</CardTitle>
+                  <CardTitle className="text-black">
+                    {dict.contact.form.title}
+                  </CardTitle>
                   <CardDescription className="text-gray-600">
                     {dict.contact.form.description}
                   </CardDescription>

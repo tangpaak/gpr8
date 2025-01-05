@@ -8,16 +8,16 @@ export default function LanguageSwitcher() {
   const currentLang = pathname?.split('/')[1] || 'en' // Add default value 'en'
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 bg-white">
       <Link 
         href={`/en${pathname?.substring(3)}`} 
-        className={`${currentLang === 'en' ? 'font-bold' : ''} hover:text-gray-600`}
+        className={`${currentLang === 'en' ? 'font-bold' : ''} text-black hover:text-gray-600`}
       >
         English
       </Link>
       <Link 
         href={`/zh${pathname?.substring(3)}`} 
-        className={`${currentLang === 'zh' ? 'font-bold' : ''} hover:text-gray-600`}
+        className={`${currentLang === 'zh' ? 'font-bold' : ''} text-black hover:text-gray-600`}
       >
         中文
       </Link>
